@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "popin";
+    src: url(./assets/fonts/Poppins-ExtraLight.ttf);
+    font-weight: normal;
+  }
+@font-face {
+    font-family: "popin";
+    src: url(./assets/fonts/Poppins-Medium.ttf);
+    font-weight: bold;
+  }
+  
+  body{
+    background-color: 
+    #fafafa;
+  }
+  .general_container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .title{
+    font-family: popin;
+    font-weight: normal;
+    font-size: 27px;
+  }
+  .sub_title{
+    font-family: popin;
+    font-size: 27px;
+    font-weight: bold;
+  }
+  .desc{
+    font-family: popin;
+    color:  #afafb1;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .card{
+    width:100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 4px;
+    border-top-color: #66c3c3;
+    padding: 30px;
+    box-shadow: 10px 10px 5px #e6e6e6;
+
+
+  } 
+  .card1{
+    width:100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 4px;
+    border-top-color: 
+    #d75f5b;
+    padding: 30px;
+    box-shadow: 10px 10px 5px #e6e6e6;
+
+
+  } 
+  .card2{
+    width:100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 4px;
+    border-top-color: 
+    #eab160;
+    padding: 30px;
+    box-shadow: 10px 10px 5px #e6e6e6;
+
+
+  } 
+  .card3{
+    width:100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 4px;
+    border-top-color: 
+    #6799dc;
+    padding: 30px;
+    box-shadow: 10px 10px 5px #e6e6e6;
+
+
+  } 
+  .card_title{
+    font-family: popin;
+    font-size: 18px;
+    font-weight: bold;
+  } 
+  .card_desc{
+    font-family: popin;
+    font-size: 12px;
+    color:  #afafb1;
+    font-weight: normal;
+  }
+  @media only screen and (max-width: 600px) {
+    .general_container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+  }
